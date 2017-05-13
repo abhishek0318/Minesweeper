@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/five"
+        android:background="#f44336"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="5 X 5"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="launchGame"/>
+
+    <TextView
+        android:id="@+id/eight"
+        android:background="#9c27b0"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="8 X 8"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="launchGame"/>
+
+    <TextView
+        android:id="@+id/twelve"
+        android:background="#009688"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="12 X 12"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="launchGame"/>
+
+    <TextView
+        android:id="@+id/sixteen"
+        android:background="#ff9800"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="16 X 16"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="launchGame"/>
+
+    <TextView
+        android:id="@+id/about"
+        android:background="#795548"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="About"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="launchAbout"
+        />
+
+
+</LinearLayout>

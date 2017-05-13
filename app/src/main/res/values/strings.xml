@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <string name="Directions">Press to explore, long press to flag the site.\n Putting flag on all the mines wins you the game. </string>
+    <string name="Tagline">Classic Minesweeper made for Android.</string>
+</resources>
